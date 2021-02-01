@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPC.Server", "src\gRPC.Server\gRPC.Server.csproj", "{AC6C9CBA-D633-44C9-B449-90B0D986DD49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC.Client", "src\gRPC.Client\gRPC.Client.csproj", "{2EFA7C32-BEB1-4050-9E84-266E8129F85C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPC.Client", "src\gRPC.Client\gRPC.Client.csproj", "{2EFA7C32-BEB1-4050-9E84-266E8129F85C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC.Model", "src\gRPC.Model\gRPC.Model.csproj", "{8340566F-4F9C-491D-9FC2-F8E02D8ECD1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPC.Model", "src\gRPC.Model\gRPC.Model.csproj", "{8340566F-4F9C-491D-9FC2-F8E02D8ECD1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC.ServiceWorker", "src\gRPC.ServiceWorker\gRPC.ServiceWorker.csproj", "{0D5EE6F0-50FD-4615-9ACC-F2437CB3BB85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8340566F-4F9C-491D-9FC2-F8E02D8ECD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8340566F-4F9C-491D-9FC2-F8E02D8ECD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8340566F-4F9C-491D-9FC2-F8E02D8ECD1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D5EE6F0-50FD-4615-9ACC-F2437CB3BB85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5EE6F0-50FD-4615-9ACC-F2437CB3BB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5EE6F0-50FD-4615-9ACC-F2437CB3BB85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5EE6F0-50FD-4615-9ACC-F2437CB3BB85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
